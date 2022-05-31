@@ -402,4 +402,18 @@ declare enum LocalFileSystem {
   TEMPORARY = 0,
 }
 
-export { Cordova, LocalFileSystem, Window };
+export {
+  Window,
+  FileSystem,
+  Entry,
+  Metadata,
+  DirectoryEntry,
+  Flags,
+  DirectoryReader,
+  FileEntry,
+  FileSaver,
+  FileWriter,
+  FileError,
+  Cordova,
+  LocalFileSystem,
+};
